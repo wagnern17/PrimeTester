@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PrimeTester</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="please_type"> Please enter an integer: </string>
+    <string name="is_prime"> Prime number.</string>
+    <string name="not_prime"> Not a prime number.</string>
+    <string name="action_settings">Settings</string>
+</resources>
