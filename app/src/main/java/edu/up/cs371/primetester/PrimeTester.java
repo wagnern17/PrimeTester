@@ -1,4 +1,7 @@
+import android.util.log;
+
 package edu.up.cs371.primetester;
+
 
 /**
  * Created by vegdahl on 7/17/2015.
@@ -17,7 +20,8 @@ public class PrimeTester {
         if (k==0||k==1){
             return false;
         }
-        for (int i = 2;i<k;i++){
+        for (int i = 2;i<k; i++) {
+            Log.i("isPrime", ""+k);
             if (k%i==0){
                 return false;
             }
